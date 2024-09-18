@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="images/user.ong.jpg" alt="User Profile">
+                <p>vloggerdark</p>
+                <span>▾</span>
+            </div>
+            <ul>
+                <li>
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <i class="fas fa-comment"></i>
+                    <span>Chat</span>
+                </li>
+                <li>
+                    <i class="fas fa-user-circle"></i>
+                    <span>Contact</span>
+                </li>
+                <li>
+                    <i class="fas fa-bell"></i>
+                    <span>Notifications</span>
+                </li>
+                <li>
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Calendar</span>
+                </li>
+                <li>
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </li>
+                <li>
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Log Out</span>
+                </li>
+            </ul>
+        </div>
+        <div class="chat-section">
+            <div class="chat-header">
+                <h2>Chats</h2>
+                <div class="header-actions">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search">
+                    <button class="create-chat">
+                        <i class="fas fa-plus"></i>
+                        <span>Create New Chat</span>
+                    </button>
+                    <div class="more-options">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-body">
+                <div class="chat-list">
+                    <div class="chat-item active">
+                        <img src="images/user1.png" alt="User Profile">
+                        <div class="chat-info">
+                            <h3>project agriculcture </h3>
+                            <p>last online 5 hours ago</p>
+                        </div>
+                        <div class="chat-message">
+                            <p>Hello! Finally found the time to write to you) I need your help in creating interactive animations for my mobile application.</p>
+                        </div>
+                    </div>
+                    <div class="chat-item">
+                        <img src="images/user2.png" alt="User Profile">
+                        <div class="chat-info">
+                            <h3>Luy Robin</h3>
+                            <p>... writes</p>
+                        </div>
+                        <div class="chat-message">
+                            <p>Most of its text is made up from sections 1.10.32-3 of Cicero's De finibus Bonorum et malorum (On the boundaries of Goods and Evils; finibus may also be translated as purposes).</p>
+                        </div>
+                        <span class="time">1 minute ago</span>
+                    </div>
+                    <div class="chat-item">
+                        <img src="images/user3.png" alt="User Profile">
+                        <div class="chat-info">
+                            <h3>Jared Sunn</h3>
+                            <p>• records voice message</p>
+                        </div>
+                        <div class="chat-message">
+                            <p>Voice message (01:15)</p>
+                            <div class="attachment">
+                                <i class="fas fa-file"></i>
+                                <span>Files (x2)</span>
+                            </div>
+                            <div class="attachment">
+                                <i class="fas fa-image"></i>
+                                <span>Photo</span>
+                            </div>
+                        </div>
+                        <span class="time">1 minute ago</span>
+                    </div>
+                    <div class="chat-item">
+                        <img src="images/petcare.png" alt="User Profile">
+                        <div class="chat-info">
+                            <h3>PET CARE</h3>
+                            <p>last online 5 hours ago</p>
+                        </div>
+                        <div class="chat-message">
+                            <p>Can i send you files?</p>
+                            <div class="attachment">
+                                <i class="fas fa-file"></i>
+                                <span>Style.zip</span>
+                                <span>41.36 Mb</span>
+                            </div>
+                        </div>
+                        <span class="time">4 days ago</span>
+                    </div>
+                    <div class="chat-item">
+                        <img src="images/woman-6401957_1280.jpg" alt="User Profile">
+                        <div class="chat-info">
+                            <h3>careen</h3>
+                            <p>last online 5 hours ago</p>
+                        </div>
+                        <div class="chat-message">
+                            <p>Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
+                        </div>
+                        <span class="time">3 days ago</span>
+                    </div>
+                    <div class="chat-item">
+                        <img src="images/dog-4494554_1280.jpg" alt="User Profile">
+                        <div class="chat-info">
+                            <h3>David</h3>
+                            <p>do not disturb</p>
+                        </div>
+                        <div class="chat-message">
+                            <p>Please see my new video presentation of our product. Do you think the clients will like?</p>
+                            <div class="attachment">
+                                <i class="fas fa-video"></i>
+                                <span>Video (x3)</span>
+                            </div>
+                        </div>
+                        <span class="time">5 days ago</span>
+                    </div>
+                    <div class="chat-item">
+                        <img src="images/cats-8096304_1280.jpg" alt="User Profile">
+                        <div class="chat-info">
+                            <h3>Suzen</h3>
+                            <p>last online 2 days ago</p>
+                        </div>
+                        <span class="time">05 july 2019</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-footer">
+                <div class="footer-actions">
+                    <i class="fas fa-film"></i>
+                    <i class="fas fa-paperclip"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <input type="text" placeholder="Type a message here">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
